@@ -28,7 +28,7 @@ def _orient_eigs_gc(eigvals, eigvecs, gc, sort_by_gc_corr=True):
 
 
 def cis_eig(A, n_eigs=3, gc=None, ignore_diags=2, clip_percentile=0,
-            sort_by_gc_corr=True):
+            sort_by_gc_corr=False):
     """
     Compute compartment eigenvector on a dense cis matrix
 
